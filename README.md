@@ -1,5 +1,5 @@
 
-![Playwright Test Execution](https://github.com/ghoshasish99/Playwright-Cucumber/workflows/Playwright%20Test%20Execution/badge.svg)
+[![CircleCI](https://circleci.com/gh/ghoshasish99/Playwright-CircleCI.svg?style=svg)](https://circleci.com/gh/ghoshasish99/Playwright-CircleCI)
     
 # Playwright (execution on Moon) with CucumberJS
     

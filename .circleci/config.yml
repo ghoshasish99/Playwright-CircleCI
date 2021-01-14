@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: mcr.microsoft.com/playwright:bionic
+    environment:
+      NODE_ENV: development
+    steps:
+      - checkout
+      - run:
+          command: npm install
+      - run:
+          command: |
+            npm test
